@@ -27,7 +27,8 @@
 ## Установка
 
 ```bash
-git clone https://github.com/reneget/Docker-compose-help-script || mv compose-runner.sh ../ || rm -rf Docker-compose-help-scriptc
+git clone https://github.com/reneget/Docker-compose-help-script
+mv Docker-compose-help-script/compose-runner.sh ./ || rm -rf Docker-compose-help-script/
 chmod +x compose-runner.sh
 ```
 
